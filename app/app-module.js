@@ -10,6 +10,7 @@
     .module('xsYoga', [
       'ui.router',
       'classes',
-      'location'
+      'location',
+      'timetable'
     ]);
 }());
