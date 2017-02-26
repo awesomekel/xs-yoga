@@ -3,385 +3,45 @@
     <div class="row">
       <div class="col-sm-12">
         <h2>Timetable <small>(Subject to Change Weekly)</small></h2>
+        <h4>Week: 27th Feb - 6th March</h4>
       </div>
       <div class="col-sm-12 text-center">
         <div class="tabbed-content button-tabs">
           <ul class="tabs mb64 mb-xs-24">
-            <li class="">
+            <li ng-class="{active: timetable.isSelected(d)}"
+                ng-repeat="d in timetable.days"
+                ng-click="timetable.select(d)">
               <div class="tab-title">
-                <span>Monday</span>
-              </div>
-            </li>
-            <li class="">
-              <div class="tab-title">
-                <span>Tuesday</span>
-              </div>
-            </li>
-            <li class="">
-              <div class="tab-title">
-                <span>Wednesday</span>
-              </div>
-            </li>
-            <li class="active">
-              <div class="tab-title">
-                <span>Thursday</span>
-              </div>
-            </li>
-            <li class="">
-              <div class="tab-title">
-                <span>Friday</span>
-              </div>
-            </li>
-            <li class="">
-              <div class="tab-title">
-                <span>Saturday</span>
-              </div>
-            </li>
-            <li class="">
-              <div class="tab-title">
-                <span>Sunday</span>
+                <span>{{d}}</span>
               </div>
             </li>
           </ul><!-- Tab buttons -->
-          <ul class="content"><li class=""><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr data-toggle="tooltip" data-placement="top" title="" data-original-title="Add additional notes via a tooltip">
-                  <td>9:00a</td>
-                  <td>Beginners Anasura</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:15a</td>
-                  <td>Advanced Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:00a</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Advanced Pilates 2</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></li><li class=""><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-
-                <tr>
-                  <td>9:00a</td>
-                  <td>Advanced Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:15a</td>
-                  <td>Beginners Anasura</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:00a</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Restorative (Maximum Group of 10)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></li><li class=""><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>9:30a</td>
-                  <td>Anasura 2</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:30a</td>
-                  <td>Intermediate Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:30a</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Advanced Pilates 2</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></li><li class="active"><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>9:00a</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:00a</td>
-                  <td>Beginners Anasura</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:15a</td>
-                  <td>Advanced Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Advanced Pilates 2</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></li><li class=""><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>9:00a</td>
-                  <td>Beginners Anasura</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:15a</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:15a</td>
-                  <td>Advanced Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Advanced Pilates 2</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                </tbody>
-              </table>
-            </div>
-          </div></li><li class=""><div class="tab-content">
-            <div class="table-responsive">
-              <table class="table table-responsive mb0 timetable">
-                <thead>
-                <tr>
-                  <th class="col-sm-2">Time</th>
-                  <th class="col-sm-6">Class</th>
-                  <th class="col-sm-2">Teacher</th>
-                  <th class="col-sm-2">Book</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                  <td>9:00a</td>
-                  <td>Reformer Pilates</td>
-                  <td>Amy</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>10:15a</td>
-                  <td>Beginners Anasura</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>11:00a</td>
-                  <td>Advanced Hatha</td>
-                  <td>Valeri</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>4:30p</td>
-                  <td>Advanced Pilates 2</td>
-                  <td>Katherin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>5:30p</td>
-                  <td>Restorative (Beginner &amp; Intermediate)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-
-                <tr>
-                  <td>6:30p</td>
-                  <td>Restorative (Advanced)</td>
-                  <td>Martin</td>
-                  <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
-                </tr>
-                </tbody>
-              </table>
-            </div>
-          </div></li></ul></div><!--end of button tabs-->
+          <ul class="content">
+            <li class="active">
+              <div class="tab-content">
+                <div class="table-responsive">
+                  <table class="table table-responsive mb0 timetable">
+                    <thead>
+                      <tr>
+                        <th class="col-sm-2">Time</th>
+                        <th class="col-sm-6">Class</th>
+                        <th class="col-sm-2">Instructor</th>
+                        <th class="col-sm-2">Book</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr ng-repeat="row in timetable.selectedTimetable">
+                        <td>{{row.time}}</td>
+                        <td>{{row.class}}</td>
+                        <td>{{row.instructor}}</td>
+                        <td><a class="btn btn-white btn-filled mb0" href="#">Register</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </li>
+          </ul></div><!--end of button tabs-->
       </div>
     </div><!--end of row-->
   </div><!--end of container-->
