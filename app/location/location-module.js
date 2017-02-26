@@ -2,14 +2,12 @@
   'use strict';
 
   /* @ngdoc object
-   * @name xsYoga
+   * @name location
    * @description
    *
    */
   angular
-    .module('xsYoga', [
-      'ui.router',
-      'classes',
-      'location'
+    .module('location', [
+      'ui.router'
     ]);
 }());
