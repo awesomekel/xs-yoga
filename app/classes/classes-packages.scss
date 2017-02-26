@@ -1,0 +1,33 @@
+$gold: #978859;
+$header-gray: #4d4e53;
+$medium-gray: #7a7a7e;
+$light-gray: #e7e7e7;
+$background-gray: #f7f7f7;
+$black: #333333;
+
+.package-description {
+  h5 {
+    margin-bottom: 16px;
+  }
+  a.view-gallery {
+    color: $header-gray;
+    line-height: 30px;
+    &:hover {
+      color: $medium-gray;
+    }
+  }
+  button.btn, a.btn {
+    border-color: #333333;
+    color: #333333;
+    min-width: 115px;
+    height: auto;
+    line-height: 30px;
+    padding: 0px 10px;
+  }
+  table.table {
+    border: 1px solid #c7c8c9;
+    td {
+      padding: 7px;
+    }
+  }
+}
