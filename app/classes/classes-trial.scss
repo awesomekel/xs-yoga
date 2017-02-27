@@ -1,3 +1,11 @@
+.package-description .table a {
+  color: inherit;
+  text-decoration: underline;
+  &:hover {
+    color: black;
+  }
+}
+
 ul.grid-gallery {
   list-style: none;
   li {

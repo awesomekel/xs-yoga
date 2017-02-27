@@ -20,8 +20,9 @@
     }
 
     function createGallery(type) {
-      var images = [];
-      for (var i = 1; i < 11; i++) {
+      var images = [],
+          i;
+      for (i = 1; i < 11; i++) {
         var obj = {
           url: createImageUrl(i, type),
           thumbUrl: createImageUrl(i, type)
