@@ -30,51 +30,141 @@
     vm.timetable = {
       monday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner Mon',
+          time: '09:00 - 11:00',
+          class: 'Personal Training / 私教',
+          instructor: 'Sakina'
+        },
+        {
+          time: '16:30 - 18:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
+        },
+        {
+          time: '18:30 - 19:30',
+          class: 'Hips Opening / 软开度-开髋',
+          instructor: 'Sakina'
+        },
+        {
+          time: '19:45 - 20:45',
+          class: 'Aerial Core Training (Beginner) / 空中瑜伽-核心建立',
           instructor: 'Sakina'
         }
       ],
       tuesday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
+          time: '09:00 - 11:00',
+          class: 'Personal Training / 私教',
           instructor: 'Sakina'
+        },
+        {
+          time: '11:15 - 12:15',
+          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
+          instructor: 'Yoyo'
+        },
+        {
+          time: '16:30 - 18:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
+        },
+        {
+          time: '18:20 - 19:20',
+          class: 'Inversions (Handstands) / 倒立',
+          instructor: 'Yoyo'
+        },
+        {
+          time: '19:30 - 20:30',
+          class: 'Aerial Yoga Inversions / 空中瑜伽-低空倒立',
+          instructor: 'Yoyo'
         }
       ],
       wednesday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
+          time: '09:00 - 11:00',
+          class: 'Personal Training / 私教',
+          instructor: 'Sakina'
+        },
+        {
+          time: '12:15 - 13:15',
+          class: 'Noontime Yoga: Gentle Flow',
+          instructor: 'Sakina'
+        },
+        {
+          time: '16:30 - 18:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
+        },
+        {
+          time: '18:30 - 19:30',
+          class: 'Inversions (Handstands) / 倒立',
+          instructor: 'Sakina'
+        },
+        {
+          time: '19:45 - 20:45',
+          class: 'Aerial Yoga Beginner / 初级空中瑜伽',
           instructor: 'Sakina'
         }
       ],
       thursday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
+          time: '09:00 - 11:00',
+          class: 'Personal Training / 私教',
+          instructor: 'Sakina'
+        },
+        {
+          time: '11:15 - 12:15',
+          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
+          instructor: 'Yoyo'
+        },
+        {
+          time: '16:30 - 18:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
+        },
+        {
+          time: '18:30 - 19:30',
+          class: 'Chest-Opening Backbends / 后弯',
+          instructor: 'Sakina'
+        },
+        {
+          time: '19:45 - 20:45',
+          class: 'Aerial Rotations（Beginner）/ 空中瑜伽-旋转初级',
           instructor: 'Sakina'
         }
       ],
       friday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
+          time: '09:00 - 11:00',
+          class: 'Personal Training / 私教',
           instructor: 'Sakina'
+        },
+        {
+          time: '12:15 - 13:15',
+          class: 'Noontime Yoga: Deep Stretch',
+          instructor: 'Sakina'
+        },
+        {
+          time: '16:30 - 18:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
         }
       ],
       saturday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
-          instructor: 'Sakina'
+          time: '14:00 - 15:00',
+          class: 'Beginner Inversions (Handstands) / 倒立',
+          instructor: 'Yoyo'
+        },
+        {
+          time: '15:15 - 16:15',
+          class: 'Aerial Yoga Beginner / 初级空中瑜伽',
+          instructor: 'Yoyo'
         }
       ],
       sunday: [
         {
-          time: '6:20 p.m. - 7:20p.m.',
-          class: 'Aerial Yoga Beginner',
-          instructor: 'Sakina'
+          time: '14:00 - 15:00',
+          class: 'Aerial Yoga Inversions / 空中瑜伽-低空倒立',
+          instructor: 'Yoyo'
         }
       ]
     };
