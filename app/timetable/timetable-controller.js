@@ -162,6 +162,11 @@
       ],
       sunday: [
         {
+          time: '08:30 - 10:00',
+          class: 'Upcoming: XS Kids (Dance)',
+          instructor: 'TBD'
+        },
+        {
           time: '14:00 - 15:00',
           class: 'Aerial Yoga Inversions / 空中瑜伽-低空倒立',
           instructor: 'Yoyo'

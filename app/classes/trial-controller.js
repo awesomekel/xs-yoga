@@ -12,8 +12,30 @@
     .module('classes')
     .controller('TrialCtrl', TrialCtrl);
 
-  function TrialCtrl() {
+  function TrialCtrl(Lightbox) {
     var vm = this;
-    vm.ctrlName = 'TrialCtrl';
+
+    function createImageUrl(i, type) {
+      return 'images/gallery-' + type + '/' + i + '.jpeg';
+    }
+
+    function createGallery(type) {
+      var images = [];
+      for (var i = 1; i < 11; i++) {
+        var obj = {
+          url: createImageUrl(i, type),
+          thumbUrl: createImageUrl(i, type)
+        };
+        images.push(obj);
+      }
+      return images;
+    }
+
+    vm.aerialImages = createGallery('aerial');
+    vm.landImages = createGallery('land');
+
+    vm.openLightboxModal = function (images, index) {
+      Lightbox.openModal(images, index);
+    };
   }
 }());
