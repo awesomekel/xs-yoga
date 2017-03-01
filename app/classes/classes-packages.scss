@@ -16,6 +16,9 @@ $black: #333333;
       color: $medium-gray;
     }
   }
+  ul.bullets, ul.bullets li,  ul.bullets li span {
+    color: black;
+  }
   button.btn, a.btn {
     border-color: #333333;
     color: #333333;
@@ -28,6 +31,9 @@ $black: #333333;
     border: 1px solid #c7c8c9;
     td {
       padding: 7px;
+      a.btn {
+        text-decoration: none;
+      }
     }
   }
 }
