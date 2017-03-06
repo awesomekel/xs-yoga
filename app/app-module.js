@@ -12,6 +12,7 @@
       'ui.router',
       'classes',
       'location',
-      'timetable'
+      'timetable',
+      'promotions'
     ]);
 }());

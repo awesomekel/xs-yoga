@@ -57,11 +57,6 @@
           instructor: 'Sakina'
         },
         {
-          time: '11:15 - 12:15',
-          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
-          instructor: 'Yoyo'
-        },
-        {
           time: '16:30 - 18:00',
           class: 'Upcoming: XS Kids (Dance)',
           instructor: 'TBD'
@@ -79,19 +74,19 @@
       ],
       wednesday: [
         {
-          time: '09:00 - 11:00',
+          time: '09:00 - 10:00',
           class: 'Personal Training / 私教',
           instructor: 'Sakina'
+        },
+        {
+          time: '10:30 - 11:30',
+          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
+          instructor: 'Yoyo'
         },
         {
           time: '12:15 - 13:15',
           class: 'Noontime Yoga: Gentle Flow',
           instructor: 'Sakina'
-        },
-        {
-          time: '16:30 - 18:00',
-          class: 'Upcoming: XS Kids (Dance)',
-          instructor: 'TBD'
         },
         {
           time: '18:30 - 19:30',
@@ -111,11 +106,6 @@
           instructor: 'Sakina'
         },
         {
-          time: '11:15 - 12:15',
-          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
-          instructor: 'Yoyo'
-        },
-        {
           time: '16:30 - 18:00',
           class: 'Upcoming: XS Kids (Dance)',
           instructor: 'TBD'
@@ -133,9 +123,14 @@
       ],
       friday: [
         {
-          time: '09:00 - 11:00',
+          time: '09:00 - 10:00',
           class: 'Personal Training / 私教',
           instructor: 'Sakina'
+        },
+        {
+          time: '10:30 - 11:30',
+          class: 'Pre/Postnatal Yoga / 孕妇瑜伽',
+          instructor: 'Yoyo'
         },
         {
           time: '12:15 - 13:15',
