@@ -8,6 +8,7 @@
    */
   angular
     .module('xsYoga', [
+      'ui.bootstrap',
       'bootstrapLightbox',
       'ui.router',
       'classes',
