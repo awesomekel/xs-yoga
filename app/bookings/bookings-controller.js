@@ -3,13 +3,13 @@
 
   /**
    * @ngdoc object
-   * @name xsYoga.controller:BookingsCtrl
+   * @name booking.controller:bookingCtrl
    *
    * @description
    *
    */
   angular
-    .module('xsYoga')
+    .module('bookings')
     .controller('BookingsCtrl', BookingsCtrl);
 
   function BookingsCtrl() {

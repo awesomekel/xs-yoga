@@ -12,8 +12,8 @@
       'bootstrapLightbox',
       'ui.router',
       'classes',
-      'location',
       'bookings',
+      'location',
       'timetable',
       'promotions'
     ]);

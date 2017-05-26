@@ -4,7 +4,7 @@
 describe('BookingsCtrl', function () {
   var ctrl;
 
-  beforeEach(module('xsYoga'));
+  beforeEach(module('bookings'));
 
   beforeEach(inject(function ($rootScope, $controller) {
     ctrl = $controller('BookingsCtrl');
