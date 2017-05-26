@@ -13,6 +13,7 @@
       'ui.router',
       'classes',
       'location',
+      'bookings',
       'timetable',
       'promotions'
     ]);

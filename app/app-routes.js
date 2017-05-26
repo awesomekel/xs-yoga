@@ -18,6 +18,12 @@
         templateUrl: '/home.tpl.html',
         controller: 'HomeCtrl',
         controllerAs: 'home'
+      })
+      .state('bookings', {
+        url: '/',
+        templateUrl: '/bookings.tpl.html',
+        controller: 'BookingsCtrl',
+        controllerAs: 'bookings'
       });
     $urlRouterProvider.otherwise('/');
   }
