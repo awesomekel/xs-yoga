@@ -7,6 +7,6 @@
 
     
     angular
-        .module('xsYoga.bookings', []);
+        .module('bookings', []);
     
 })();

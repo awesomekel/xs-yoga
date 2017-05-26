@@ -7,7 +7,7 @@
 
 
     angular
-        .module('xsYoga.bookings')
+        .module('bookings')
         .config(config);
 
     /* @ngInject */
